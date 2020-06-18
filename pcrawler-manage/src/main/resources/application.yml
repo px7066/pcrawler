@@ -28,7 +28,7 @@ spring:
     database: mysql
     show-sql: true
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create
       database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 server:
   port: 9001
