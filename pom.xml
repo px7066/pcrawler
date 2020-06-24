@@ -9,6 +9,7 @@
         <module>pcrawler-common-support</module>
         <module>pcrawler-remote-api</module>
         <module>pcrawler-manage</module>
+        <module>pcrawler-elasticsearch</module>
     </modules>
 
     <groupId>com.github.crawler</groupId>
