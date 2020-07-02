@@ -62,7 +62,7 @@
         <project.version>1.0-SNAPSHOT</project.version>
         <springboot.version>2.3.1.RELEASE</springboot.version>
         <fastjson.version>1.2.70</fastjson.version>
-        <mysql.version>5.1.49</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <druid.version>1.1.22</druid.version>
         <druid.spring.boot.version>1.1.22</druid.spring.boot.version>
         <webCollector.version>2.71</webCollector.version>
