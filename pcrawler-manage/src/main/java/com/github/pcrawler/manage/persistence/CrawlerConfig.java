@@ -7,16 +7,10 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "crawler_config")
+@Table(name = "p_crawler_config")
 @Getter
 @Setter
-public class CrawlerConfig {
-    /**
-     * 任务id
-     */
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Id
-    private Integer id;
+public class CrawlerConfig extends BaseEntity{
 
     @Column(name = "url", columnDefinition = "varchar(128)")
     private String url;
@@ -32,5 +26,8 @@ public class CrawlerConfig {
 
     @Column(name = "time_interval", columnDefinition = "int(12)")
     private Integer timeInterval;
+
+    @Column(name = "sw", columnDefinition = "bit(1)")
+    private Boolean sw;
 
 }
